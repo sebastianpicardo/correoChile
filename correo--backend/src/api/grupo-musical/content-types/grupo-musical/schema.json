@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grupo_musicals",
+  "info": {
+    "singularName": "grupo-musical",
+    "pluralName": "grupo-musicals",
+    "displayName": "grupoMusical"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombreGrupo": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "integer"
+    },
+    "vigencia": {
+      "type": "boolean"
+    }
+  }
+}
